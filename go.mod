@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/AlecAivazis/survey/v2 v2.3.6 // indirect
-	github.com/kamruljpi/html v0.0.1
+	github.com/kamruljpi/html v0.0.0-20231128153740-1b5f504810ad // indirect
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e
 	github.com/denisenkom/go-mssqldb v0.0.0-20200206145737-bbfc9a55622e
 	github.com/go-sql-driver/mysql v1.5.0
