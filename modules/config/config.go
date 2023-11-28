@@ -63,8 +63,11 @@ func (d Database) GetDSN() string {
 			d.Name + d.ParamStr()
 	}
 	if d.Driver == DriverPostgresql {
-		return fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s"+d.ParamStr(),
-			d.Host, d.Port, d.User, d.Pwd, d.Name)
+		port := ":" + d.Port
+		if d.Host != "localhost" && d.Host != "127.0.0.1" {
+			port = ""
+		}
+		return fmt.Sprintf("postgres://postgres:%s@%s%s/%s?sslmode=disable", d.Pwd, d.Host, port, d.Name)
 	}
 	if d.Driver == DriverMssql {
 		return fmt.Sprintf("user id=%s;password=%s;server=%s;port=%s;database=%s;"+d.ParamStr(),
