@@ -2,34 +2,34 @@ package buffalo
 
 import (
 	// add buffalo adapter
-	_ "github.com/GoAdminGroup/go-admin/adapter/buffalo"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/kamruljpi/go-admin/adapter/buffalo"
+	"github.com/kamruljpi/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/modules/language"
+	"github.com/kamruljpi/go-admin/plugins/admin/modules/table"
+	"github.com/kamruljpi/themes/adminlte"
 
 	// add mysql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/kamruljpi/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/kamruljpi/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/kamruljpi/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/kamruljpi/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/kamruljpi/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
+	"github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/chartjs"
 
 	"net/http"
 	"os"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
 	"github.com/gobuffalo/buffalo"
+	"github.com/kamruljpi/go-admin/engine"
+	"github.com/kamruljpi/go-admin/plugins/admin"
+	"github.com/kamruljpi/go-admin/plugins/example"
+	"github.com/kamruljpi/go-admin/tests/tables"
 )
 
 func internalHandler() http.Handler {

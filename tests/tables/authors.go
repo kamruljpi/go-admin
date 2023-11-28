@@ -1,10 +1,10 @@
 package tables
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/kamruljpi/go-admin/context"
+	"github.com/kamruljpi/go-admin/modules/db"
+	"github.com/kamruljpi/go-admin/plugins/admin/modules/table"
+	"github.com/kamruljpi/go-admin/template/types/form"
 )
 
 // GetAuthorsTable return the model of table author.

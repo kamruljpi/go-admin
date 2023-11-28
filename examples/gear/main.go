@@ -6,19 +6,19 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gear"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
-	_ "github.com/GoAdminGroup/themes/sword"
+	_ "github.com/kamruljpi/go-admin/adapter/gear"
+	_ "github.com/kamruljpi/go-admin/modules/db/drivers/mysql"
+	_ "github.com/kamruljpi/themes/sword"
 	"github.com/teambition/gear"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/kamruljpi/go-admin/engine"
+	"github.com/kamruljpi/go-admin/examples/datamodel"
+	"github.com/kamruljpi/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/modules/language"
+	"github.com/kamruljpi/go-admin/plugins/example"
+	"github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/chartjs"
+	"github.com/kamruljpi/themes/adminlte"
 )
 
 func main() {

@@ -11,24 +11,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/system"
+	"github.com/kamruljpi/go-admin/modules/system"
 
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/kamruljpi/go-admin/modules/logger"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/remote_server"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	template2 "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	"github.com/GoAdminGroup/html"
 	"github.com/gin-gonic/gin"
+	"github.com/kamruljpi/go-admin/context"
+	"github.com/kamruljpi/go-admin/modules/auth"
+	"github.com/kamruljpi/go-admin/modules/language"
+	"github.com/kamruljpi/go-admin/modules/remote_server"
+	"github.com/kamruljpi/go-admin/modules/utils"
+	"github.com/kamruljpi/go-admin/plugins"
+	"github.com/kamruljpi/go-admin/plugins/admin/modules/guard"
+	template2 "github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/types"
+	"github.com/kamruljpi/go-admin/template/types/form"
+	"github.com/kamruljpi/html"
 )
 
 func (h *Handler) Plugins(ctx *context.Context) {

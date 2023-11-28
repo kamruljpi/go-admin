@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/modules/config"
 )
 
 // Mssql is a Connection of mssql.
