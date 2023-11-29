@@ -467,23 +467,23 @@ var projectWebTmpl = `
                         <p>
                         <ul>
                             <li>
-                                <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.sql"
+                                <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.sql"
                                    target="_blank">Mysql</a>
                             </li>
                             <li>
-                                <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.mssql"
+                                <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.mssql"
                                    target="_blank">Mssql</a>
                             </li>
                             <li>
-                                <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.pgsql"
+                                <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.pgsql"
                                    target="_blank">Postgresql</a>
                             </li>
                             <li>
-                                <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.db"
+                                <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.db"
                                    target="_blank">SQLite3</a>
                             </li>
                             <li>
-                                <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.sql"
+                                <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.sql"
                                    target="_blank">OceanBase</a>
                             </li>
                         </ul>

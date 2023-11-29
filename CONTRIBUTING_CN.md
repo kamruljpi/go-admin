@@ -4,7 +4,7 @@
 
 * 翻译
     * README.md
-    * [docs](https://github.com/GoAdminGroup/docs/issues/1)
+    * [docs](https://github.com/kamruljpi/docs/issues/1)
 * 寻找BUG
 * 寻找安全问题
 * 主题和插件
@@ -13,7 +13,7 @@
 
 你也可以看一下所有开放的issues，从这里去入手：
 
-https://github.com/search?q=org%3AGoAdminGroup+is%3Aopen+is%3Aissue+archived%3Afalse&type=Issues
+https://github.com/search?q=org%3Akamruljpi+is%3Aopen+is%3Aissue+archived%3Afalse&type=Issues
 
 ## 如何做贡献
 

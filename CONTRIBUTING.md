@@ -4,7 +4,7 @@ If you want to contribute, but not sure what to do, here's a list of things that
 
 * Translations
     * README.md
-    * [docs](https://github.com/GoAdminGroup/docs/issues/1)
+    * [docs](https://github.com/kamruljpi/docs/issues/1)
 * Bug-hunting
 * Finding security problems
 * Themes and Plugins
@@ -13,7 +13,7 @@ See [manual](https://github.com/kamruljpi/go-admin/projects/3) for more informat
 
 You can view all open issues on github, which is usually a good starting point if you want to start contributing:
 
-https://github.com/search?q=org%3AGoAdminGroup+is%3Aopen+is%3Aissue+archived%3Afalse&type=Issues
+https://github.com/search?q=org%3Akamruljpi+is%3Aopen+is%3Aissue+archived%3Afalse&type=Issues
 
 ## how to
 

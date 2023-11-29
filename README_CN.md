@@ -7,13 +7,13 @@
     遗失的Golang编写的数据可视化与管理平台构建框架
 </p>
 <p align="center">
-<a href="http://drone.go-admin.com/GoAdminGroup/go-admin"><img alt="Build Status" src="http://drone.go-admin.com/api/badges/GoAdminGroup/go-admin/status.svg?ref=refs/heads/master"></a>
+<a href="http://drone.go-admin.com/kamruljpi/go-admin"><img alt="Build Status" src="http://drone.go-admin.com/api/badges/kamruljpi/go-admin/status.svg?ref=refs/heads/master"></a>
   <a href="https://goreportcard.com/report/github.com/kamruljpi/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
   <a href="https://goreportcard.com/report/github.com/kamruljpi/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
   <a href="https://t.me/joinchat/NlyH6Bch2QARZkArithKvg" rel="nofollow"><img alt="telegram" src="https://img.shields.io/badge/chat%20on-telegram-blue" style="max-width:100%;"></a>
   <a href="https://shang.qq.com/wpa/qunwpa?idkey=ab18729bba609c220f31516a4eb9fce27f582458bd9a865b46523adb5632b873"><img alt="qq群" src="https://img.shields.io/badge/QQ-874825430-yellow.svg"></a>
   <a href="https://godoc.org/github.com/kamruljpi/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
-  <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
+  <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
 </p>
 <p align="center">
     由<a href="https://github.com/z-song/laravel-admin" target="_blank">laravel-admin</a>启发
@@ -23,7 +23,7 @@
 
 GoAdmin 可以帮助你的golang应用快速实现数据可视化，搭建一个数据管理平台。
 
-[文档](http://doc.go-admin.cn/zh) | [论坛](http://discuss.go-admin.com) | [Demo](https://demo.go-admin.cn) | [上手例子](https://github.com/GoAdminGroup/example/blob/master/README_CN.md) | [GoAdmin+vue 例子](https://github.com/GoAdminGroup/goadmin-vue-example)
+[文档](http://doc.go-admin.cn/zh) | [论坛](http://discuss.go-admin.com) | [Demo](https://demo.go-admin.cn) | [上手例子](https://github.com/kamruljpi/example/blob/master/README_CN.md) | [GoAdmin+vue 例子](https://github.com/kamruljpi/goadmin-vue-example)
 
 
 ![](http://file.go-admin.cn/introduction/interface_3.png)
@@ -37,7 +37,7 @@ GoAdmin 可以帮助你的golang应用快速实现数据可视化，搭建一个
 - ⚙️ **框架支持**: 支持大部分框架接入，让你更容易去上手和扩展
 
 ## 翻译
-我们需要您的帮忙： [https://github.com/GoAdminGroup/docs/issues/1](https://github.com/GoAdminGroup/docs/issues/1)
+我们需要您的帮忙： [https://github.com/kamruljpi/docs/issues/1](https://github.com/kamruljpi/docs/issues/1)
 
 ## 谁在使用GoAdmin
 
@@ -48,7 +48,7 @@ GoAdmin 可以帮助你的golang应用快速实现数据可视化，搭建一个
 提示：现在你也可以这样做。
 
 ```shell
-$ go install github.com/GoAdminGroup/adm@latest
+$ go install github.com/kamruljpi/adm@latest
 $ mkdir new_project && cd new_project
 $ adm init -l cn
 ```
@@ -56,7 +56,7 @@ $ adm init -l cn
 或者：（使用v1.2.16以上的adm）
 
 ```shell
-$ go install github.com/GoAdminGroup/adm@latest
+$ go install github.com/kamruljpi/adm@latest
 $ mkdir new_project && cd new_project
 $ adm init web -l cn
 ```
@@ -66,10 +66,10 @@ $ adm init web -l cn
 
 ### 第一步：导入 sql
 
-- [mysql](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.sql)
-- [mssql](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.mssql)
-- [postgresql](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.pgsql)
-- [sqlite](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.db)
+- [mysql](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.sql)
+- [mssql](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.mssql)
+- [postgresql](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.pgsql)
+- [sqlite](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.db)
 
 ### 第二步：创建 main.go
 
@@ -167,7 +167,7 @@ GO111MODULE=on go run main.go
 
 更多细节详见 [文档说明](http://doc.go-admin.cn/zh)
 
-[这里一个超级简单上手的例子](https://github.com/GoAdminGroup/example)
+[这里一个超级简单上手的例子](https://github.com/kamruljpi/example)
 
 ## 贡献
 

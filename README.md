@@ -19,13 +19,13 @@
 </p>
 
 <p align="center">
-  <a href="http://drone.go-admin.com/GoAdminGroup/go-admin"><img alt="Build Status" src="http://drone.go-admin.com/api/badges/GoAdminGroup/go-admin/status.svg?ref=refs/heads/master"></a>
+  <a href="http://drone.go-admin.com/kamruljpi/go-admin"><img alt="Build Status" src="http://drone.go-admin.com/api/badges/kamruljpi/go-admin/status.svg?ref=refs/heads/master"></a>
   <a href="https://goreportcard.com/report/github.com/kamruljpi/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
   <a href="https://goreportcard.com/report/github.com/kamruljpi/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
   <a href="https://t.me/joinchat/NlyH6Bch2QARZkArithKvg" rel="nofollow"><img alt="telegram" src="https://img.shields.io/badge/chat%20on-telegram-blue" style="max-width:100%;"></a>
   <a href="https://goadmin.slack.com"><img alt="slack" src="https://img.shields.io/badge/chat on-Slack-yellow.svg"></a>
   <a href="https://godoc.org/github.com/kamruljpi/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
-  <a href="https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
+  <a href="https://raw.githubusercontent.com/kamruljpi/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
 </p> 
 
 <p align="center">
@@ -38,9 +38,9 @@ GoAdmin is a toolkit to help you build a data visualization admin panel for your
 
 Online demo: [https://demo.go-admin.com](https://demo.go-admin.com)
 
-Quick follow up example: [https://github.com/GoAdminGroup/example](https://github.com/GoAdminGroup/example)
+Quick follow up example: [https://github.com/kamruljpi/example](https://github.com/kamruljpi/example)
 
-GoAdmin+vue example: [https://github.com/GoAdminGroup/goadmin-vue-example](https://github.com/GoAdminGroup/goadmin-vue-example)
+GoAdmin+vue example: [https://github.com/kamruljpi/goadmin-vue-example](https://github.com/kamruljpi/goadmin-vue-example)
 
 ![interface](http://file.go-admin.cn/introduction/interface_en_3.png)
 
@@ -53,7 +53,7 @@ GoAdmin+vue example: [https://github.com/GoAdminGroup/goadmin-vue-example](https
 - ⚙️ **Frameworks**: support most of the go web frameworks.
 
 ## Translation
-We need your help: [https://github.com/GoAdminGroup/docs/issues/1](https://github.com/GoAdminGroup/docs/issues/1)
+We need your help: [https://github.com/kamruljpi/docs/issues/1](https://github.com/kamruljpi/docs/issues/1)
 
 ## Who is using
 
@@ -66,7 +66,7 @@ Following three steps to run it.
 Note: now you can quickly start by doing like this.
 
 ```shell
-$ go install github.com/GoAdminGroup/adm@latest
+$ go install github.com/kamruljpi/adm@latest
 $ mkdir new_project && cd new_project
 $ adm init
 ```
@@ -75,17 +75,17 @@ Or (use adm whose version higher or equal than v1.2.16)
 
 ```shell
 $ mkdir new_project && cd new_project
-$ go install github.com/GoAdminGroup/adm@latest
+$ go install github.com/kamruljpi/adm@latest
 $ adm init web
 ```
 
 ### Step 1: import sql
 
-- [mysql](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.sql)
-- [mssql](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.mssql)
-- [postgresql](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.pgsql)
-- [sqlite](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.db)
-- [OceanBase](https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.sql)
+- [mysql](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.sql)
+- [mssql](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.mssql)
+- [postgresql](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.pgsql)
+- [sqlite](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.db)
+- [OceanBase](https://raw.githubusercontent.com/kamruljpi/go-admin/master/data/admin.sql)
 
 
 ### Step 2: create main.go
@@ -182,7 +182,7 @@ visit: [http://localhost:9033/admin](http://localhost:9033/admin)
 
 account: admin password: admin
 
-[A super simple example here](https://github.com/GoAdminGroup/example)
+[A super simple example here](https://github.com/kamruljpi/example)
 
 See the [docs](https://book.go-admin.cn) for more details.
 
