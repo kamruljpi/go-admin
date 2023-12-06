@@ -40,12 +40,12 @@ func (admin *Admin) InitPlugin(services service.List) {
 		"menu":           st.GetMenuTable,
 		"normal_manager": st.GetNormalManagerTable,
 	}
-	if c.IsAllowConfigModification() {
-		genList.Add("site", st.GetSiteTable)
-	}
-	if c.IsNotProductionEnvironment() {
-		genList.Add("generate", st.GetGenerateForm)
-	}
+	// if c.IsAllowConfigModification() {
+	genList.Add("site", st.GetSiteTable)
+	// }
+	// if c.IsNotProductionEnvironment() {
+	genList.Add("generate", st.GetGenerateForm)
+	// }
 	admin.tableList.Combine(genList)
 	admin.guardian = guard.New(admin.Services, admin.Conn, admin.tableList, admin.UI.NavButtons)
 	handlerCfg := controller.Config{
